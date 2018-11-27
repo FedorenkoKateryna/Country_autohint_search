@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="true" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" type="text/css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.0/jquery.nicescroll.min.js"></script>
+   
+    
+    <script type="text/javascript" src="js.js"></script>
+    <link rel="stylesheet" href="css.css"> 
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Autocomplete Search</title>
+</head>
+<body> 
+  <header class='container mt-2'>  
+    <div class="    offset-3 col-md-6 col-12 p-0">
+        <div class="search ">
+            <input type=text id="search" class="col-xl-10 m-1" placeholder="Insert country" autocomplete="off"/>
+            <i class="fa fa-search mt-1 mr-3" aria-hidden="true"></i>
+        </div>
+    
+        <div id="drop" tabindex="0" class=" m-2">
+        </div>
+    </div>
+  </header>
+  <main class='container mt-2 d-flex align-items-center'>
+    <div class="col-xl-5 col-md-5 col-12" id="flag"></div>
+    <div class="col-xl-5 col-md-5 col-12" id="countryInfo"></div>     
+  </main> 
+</body>
+</html>
